@@ -15,7 +15,7 @@ class NewTodo extends Component {
         return (
             <div className="NewTodo">
                 <h1>Add a Todo</h1>
-                <label>Titlee</label>
+                <label>Title</label>
                 <input type="text" value={this.state.title}
                 onChange={(event) => this.setState({ title: event.target.value})} />
                 <label>Content</label>
